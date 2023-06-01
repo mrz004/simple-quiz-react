@@ -1,0 +1,10 @@
+#root {
+  min-height: 100dvh;
+  display: grid;
+  grid-template-rows: 10vh 1fr 7vh;
+}
+
+#root > main {
+  display: grid;
+  place-items: center;
+}
